@@ -1,0 +1,225 @@
+.bgimg3 {
+    background-image: url(./assests/imgs/news.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mainbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 420px;
+}
+
+.mainseabtn {
+    background-color: white;
+    width: 1100px;
+    padding: 18px;
+    gap: 20px;
+    display: flex;
+}
+
+.btnsarh {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 280px;
+}
+
+.city {
+    background-color: #f2f5f6;
+    border: none;
+    width: 290px;
+    text-align: start;
+}
+
+#dear {
+    width: 180px;
+}
+
+#dear1 {
+    width: 180px;
+}
+
+#bud {
+    width: 200px;
+}
+
+.Searchb {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.june2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.mainbesttips {
+    width: 60%;
+    padding-left: 60px;
+}
+
+.LIFESTYLE {
+    font-size: 15px;
+
+}
+
+.Readmore {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.maincat {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.superbcategorys {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.category {
+    margin-top: -20px;
+}
+
+.mainorg {
+    padding: 30px;
+    display: flex;
+    gap: 200px;
+}
+
+.mainPellentesque {
+    display: flex;
+    gap: 20px;
+}
+
+.besttips {
+    margin-top: -10px;
+    margin-bottom: -5px;
+    font-size: 20px;
+}
+
+#travelloimgs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Latest {
+    margin-bottom: 50px;
+}
+
+.bgimgtra {
+    background-image: url(./assests/imgs/travello.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.getdis {
+    background-color: #b94369;
+    color: white;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+
+    bottom: -100px;
+    width: 900px;
+    transform: rotate(-10deg);
+    margin-bottom: -30px;
+}
+
+.getadis20 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 210px;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    transform: rotate(10deg);
+}
+
+.byour {
+    margin-top: 5px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    max-width: 210px;
+    font-size: 14px;
+    transform: rotate(10deg);
+}
+.imgo2june{
+    width: 600px;
+}
+.imgnews5{
+    width: 150px;
+}
+@media screen and (max-width:1000px) {
+    .bgimg3 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .superbcategorys {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px) {
+    .imgo2june {
+        width: 100%;
+    }
+}
+@media screen and (max-width:530px) {
+    .category {
+     display: none;
+    }
+}
+@media screen and (max-width:730px) {
+    .mainPellentesque {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+}
+@media screen and (max-width:730px) {
+    .imgnews5 {
+    width: 100%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .bgimgtra {
+    width: 100%;
+    }
+}
